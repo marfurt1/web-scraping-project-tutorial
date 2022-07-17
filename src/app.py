@@ -70,6 +70,7 @@ connection.commit()
 for row in c.execute('SELECT * FROM revenue'):
     print(row)
 
+
 """#Result:
 database name  “Tesla.db”. We saved the connection to the connection object.
 #Next time we run this file, it just connects to the database, and if the database 
